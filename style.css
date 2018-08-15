@@ -1,0 +1,195 @@
+body{
+
+	font-family: 'Open Sans', sans-serif;
+	background: url("https://images.unsplash.com/photo-1519781584827-97009e7f000c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3edb9edcc3467cd2bab5a0c535991ce1&auto=format&fit=crop&w=800&q=60");
+	background-size: cover;
+  	background-position: center;
+
+}
+
+.grid {
+	width:100%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+	grid-template-rows: auto auto auto;
+	grid-gap: 5em;
+	grid-template-areas: 
+	"header header"
+	"ourForm invitation"
+	". invitation"
+	"footer footer"
+}
+
+
+
+.header {
+  grid-area: header;
+  margin-top: 2em;
+
+}
+
+.ourForm {
+  	grid-area: ourForm;
+	background-color: rgba(225, 112, 151, 0.59);
+	border-radius: 5%;
+	border: 2px solid pink;
+  max-width: 100%;
+  max-height: 100%;
+	margin-left: 5em;
+	padding-left: 1em;
+
+}
+
+.invitation{
+  	grid-area: invitation;
+	color: white;
+	font-family: 'Satisfy', cursive;
+	text-align: center;
+	border: 2px solid pink;
+  	border-radius: 5%;
+  	max-width: 39em;
+  	max-height: 30em;
+  	margin-left: 4em;
+  	background:black;
+
+
+}
+
+
+.footer{
+  grid-area: footer;
+	font-size: 60%;
+  text-align: center;
+  background-color: rgba(225, 112, 151, 0.59);
+  border: thick solid rgba(225, 112, 151, 0.59);
+  border-radius: 5%;
+
+}
+
+
+
+h1{
+
+font-size: 450%;
+text-align: center;
+font-family: 'Quintessential', cursive;
+margin-top: 5%;
+margin-top: 0;
+}
+
+p{
+	font-size: 2em;
+	text-align: center;
+}
+
+#heart{
+  color:pink;
+  
+}
+
+#heart2{
+  color:pink;
+}
+
+
+input[type=text], select {
+    width: 65%;
+    padding: 3% 6%;
+   
+}
+
+body{
+
+	font-family: 'Open Sans', sans-serif;
+	background: url("https://images.unsplash.com/photo-1519781584827-97009e7f000c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3edb9edcc3467cd2bab5a0c535991ce1&auto=format&fit=crop&w=800&q=60");
+	background-size: cover;
+  	background-position: center;
+
+}
+
+.grid {
+	width:100%;
+	max-width: 960%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+	grid-template-rows: auto auto auto;
+	grid-gap: 5em;
+	grid-template-areas: 
+	"header header"
+	"ourForm invitation"
+	". invitation"
+	"footer footer"
+}
+
+
+
+
+
+.header {
+  grid-area: header;
+  margin-top: 2em;
+
+}
+
+.ourForm {
+grid-area: ourForm;
+	background-color: rgba(225, 112, 151, 0.59);
+	border-radius: 5%;
+	border: 2px solid pink;
+  max-width: 100%;
+  max-height: 100%;
+	margin-left: 5em;
+	padding-left: 1em;
+
+}
+
+.invitation{
+  grid-area: invitation;
+	color: white;
+	font-family: 'Satisfy', cursive;
+	text-align: center;
+	border: 2px solid pink;
+  	border-radius: 5%;
+  	max-width: 39em;
+  	max-height: 30em;
+  	margin-left: 4em;
+  	background:black;
+
+
+}
+
+
+.footer{
+  grid-area: footer;
+	font-size: 60%;
+  text-align: center;
+  background-color: rgba(225, 112, 151, 0.59);
+  border: thick solid rgba(225, 112, 151, 0.59);
+  border-radius: 5%;
+
+}
+
+
+
+p{
+	font-size: 2em;
+	text-align: center;
+}
+
+#heart{
+  color:pink;
+  
+}
+
+#heart2{
+  color:pink;
+}
+
+
+input {
+    width: 65%;
+    padding: 3% 6%;
+   
+}
