@@ -1,0 +1,101 @@
+/* universial */
+
+body {
+    background-color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
+}
+
+/* header */
+
+.top-page {
+  text-align: center;
+  padding: 20px;
+}
+
+span {
+  text-align: center;
+  font-size: 40px;
+}
+
+p {
+  display: inline-block;
+  padding: 5px;
+  margin:10px;
+  
+}
+
+
+
+/* containers*/ 
+
+.full-container {
+  height: 450px;
+  /*border: 1px dotted red;*/ 
+}
+
+ .left {
+   float: left;
+   width: 50%;
+   height: 100%;
+ }
+ 
+ .right {
+   float: right;
+   width: 50%;
+   height: 100%;
+ }
+
+ input[type=text] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 4px 0;
+}
+
+
+#input-container {
+    background-image: url("https://i.pinimg.com/originals/71/d8/28/71d828c3ca9135c1e810021366651726.png");
+    background-size: contain ;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+ } 
+
+ form {
+   padding-left: 10px;
+ }
+ 
+ /* nav */
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li  {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}  
+    
+ /* footer*/
+ 
+  footer { 
+    text-align: center;
+ }
+ 
