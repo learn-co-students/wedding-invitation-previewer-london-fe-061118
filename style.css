@@ -1,0 +1,101 @@
+body {
+  font-family:'Rancho', cursive;
+  background-image: url("https://images.unsplash.com/photo-1471899236350-e3016bf1e69e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=80dafd8f4a647a2673a8272909b0c1ec&auto=format&fit=crop&w=1951&q=80");
+  
+}
+
+h1{
+font-family: 'Rancho', cursive;
+font-size: 40px;
+text-align: center;
+color: #70380f;
+}
+
+h2 {
+  font-family: 'Rancho', cursive;
+  display: inline;
+  color: #70380f;
+}
+
+
+ul {
+  cursor: pointer;
+  font-family: 'Rancho', cursive;
+  font-size: 25px;
+  list-style-type: none;
+  position: fixed;
+}
+
+li{
+  display: block;
+  text-decoration: underline rosyBrown;
+  padding: 8px;
+  color: #70380f;
+}
+
+li:hover{
+  background-color: lightblue;
+  border-radius: 50%;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+ justify-content: space-around;
+ margin: 5%;
+ flex-wrap: wrap;
+ font-family: 'Rancho', cursive;
+ font-size: 25px;
+}
+    
+  p{
+    font-size: 25px;
+    
+  }
+    
+  #styles {
+  font-family: 'Rancho', cursive;
+  font-size: 25px;
+}
+
+.placeholder::placeholder{
+     font-family: 'Rancho', cursive;
+     color: #70380f;
+}
+
+
+#firstbox{
+  border-style: groove;
+  text-align: center;
+  width: 500px;
+  height: 850px;
+  
+}
+
+#secondbox{
+  padding: 5%;
+  text-align: center;
+}
+
+form {
+  position: fixed;
+}
+
+input{
+  height: 40px;
+  font-size: 14pt;
+  background: transparent;
+  border-color: transparent;
+  }
+
+input:hover{
+  background-color: lightblue;
+  box-shadow: inset 0 0 0 25px #53a7ea;
+}
+
+
+footer{
+  font-size : 20px;
+  color: lightblue;
+}
