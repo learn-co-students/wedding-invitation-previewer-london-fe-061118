@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+<title>Wedding Invitation Designer</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Domine|Open+Sans|Quintessential|Satisfy" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+  <!-- or -->
+<link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+<script src = invitation.js> </script>
+
+
+</head>
+
+
+<body>
+  <section class = "grid" >
+		
+  <header class = "header"> 
+
+			<h1> Wedding Invitation Designer</h1>
+		  <p class = "animated bounce slow"> <i id= "heart" class="fas fa-heart"></i> Create your own invitation by filling in your details and selecting a theme<i id= "heart2" class="fas fa-heart" ></i></p>
+  </header>
+
+
+	<form class = "ourForm">
+
+	
+		Name 1:<br>
+		<input id=firstName type="text" name="name1" value=""><br> 
+		Name 2:<br>
+		<input id=secondName type="text" name="name2" value=""><br><br>
+		Date:<br>
+		<input id= "weddingDate" type="text" name="date" value=""><br><br>
+		Venue:<br>
+		<input id = "weddingVenue" type="text" name="venue" value=""><br><br>
+		
+ 
+	</form>
+
+
+
+
+  <div id =invitation class = "invitation"> 
+
+  <div class="tab">
+
+		<button id = "theme1">theme1</button>
+		<button id = "theme2">theme2</button>
+		<button id = "theme3">theme3</button>
+ 
+  </div>
+
+  
+  <p><span id = "name1"> </span>	&amp; <span id = "name2"> </span> <br> are getting married</p>
+  	
+  <p>	please join us on <br> <span id = "date"> </span> </p>
+  
+  <p> Venue <br> <span id = "venue"> </span></p>
+  
+</div>
+
+
+
+
+  <footer class = "footer">
+      <p>Alyshanee &copy; 2018</p>
+    </footer>
+</section>
+ 
+</body>
+
+</html>
