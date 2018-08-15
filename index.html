@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang ="en-GB">
+<head>
+<meta charset="UTF-8">
+<title>Wedding Invitation Previewer</title>  
+<meta name="author" content="Banna">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="index.css">
+<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+</head>
+
+<body>
+<header>
+  <h1>Your Invite</h1>
+</header>
+<main>
+ <article id="data">
+      <form>
+       <input id="you" type="text" placeholder="You">
+       <input id="them" type="text" placeholder="Them">
+       <input id="date" type="text" placeholder="Date">
+       <input id="location" type="text" placeholder="Wedding Location">
+    </form>
+</article>
+<section id="flex-container">
+<article>
+<div class="slideshow-container">
+  <!-- Full-width images with number and caption text-->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img class ="cover" src="./images/01spring.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="./images/02summer.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="./images/03winter.jpg" style="width:100%">
+</div>
+
+<!-- Next and previous buttons -->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+</article>
+</section>
+
+<article class="text-block">
+<ul>
+<li class="text-lines">You are cordially invited to the wedding of</li>
+<strong><li id="first-name">You</li></strong>
+<li class="text-lines">&</li>
+<strong><li id="second-name">Them</li></strong>
+<li class="text-lines">on</li>
+<strong><li id="dated">the happiest day of our lives</li></strong>
+<li class="text-lines">at</li>
+<strong><li id="locate">our home</li></strong>
+</ul>
+  
+</article>
+</main>
+
+
+<footer id="footer">
+<div id="seasons">
+  <span class="dot" onclick="currentSlide(1)">Spring</span> 
+  <span class="dot" onclick="currentSlide(2)">Summer</span> 
+  <span class="dot" onclick="currentSlide(3)">Winter</span> 
+</div>
+</footer>
+
+<script src="index.js"></script>
+<script src="names.js"></script>
+
+</body>
+</html>

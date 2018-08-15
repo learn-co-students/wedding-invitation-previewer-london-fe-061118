@@ -1,0 +1,201 @@
+html, body, .slideshow-container {
+  height:100%;
+  width: 100%;
+}
+
+body {
+ margin: 0;
+ overflow: hidden;
+}
+
+#seasons {
+  text-align: center;
+  align-content: center;
+  position: fixed;
+  bottom: 0;
+  background-color: #c7e9d8;
+  width: 100%;
+  height: 50px;
+}
+
+h1 {
+  border-bottom: 2px solid #c7e9d8;
+  width: 93%;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 0;
+  height: 35px;
+  text-align: center;
+  color: #44544c;
+  font-size: 45px;
+  text-transform: lowercase;
+  font-family: 'Tangerine', cursive;
+  font-weight: 300;
+  background-color: white;
+}
+
+#data {
+position: relative;
+}
+
+form {
+  display: flex;
+  text-align: center;
+  background-color: #c7e9d8;
+  width: 100%;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+#flex-container {
+  display: flex;
+  overflow: hidden;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  height:100%;
+  position: absolute;
+  margin: 0;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+
+.text-block {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    color: white;
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+    width: 70%;
+    height: 100%;
+    margin: 0;
+    justify-content: space-between;
+    text-overflow: inherit;
+
+    
+  }
+
+  ul {
+list-style-type: none;    
+text-align: center;
+  }
+  
+.text-lines {
+  font-size: 40px;
+  opacity: .8;
+}
+
+  #first-name {
+    display: flex;
+    flex-flow: column wrap;
+  }
+  
+  
+@media screen and (max-width: 600px) {
+  .text-block {
+    font-size: 30px;
+  }
+}  
+
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  z-index: 1;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  color: #bbb;
+  display: inline;
+  transition: background-color 0.6s ease;
+  font-size: 25px;
+
+}
+
+
+
+.active, .dot:hover {
+  color: #717171;
+}
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+ footer {
+        transition: 1.5s;
+        
+    }
+    .mouse_come_here {
+        width: 100%;
+        height: 20%;
+        opacity: .0;
+    }
+    
+    .visible {
+        height: 100%;
+        opacity: 1.0;
+      
+    }
+    
+    
