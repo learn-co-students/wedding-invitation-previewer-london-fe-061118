@@ -1,0 +1,68 @@
+h1 {
+  text-align: center;
+  font-size: 50px;
+  padding: 1%;
+  font-family: 'Sacramento', cursive;
+  color: #665700;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 18px;
+  color: #665700;
+}
+body {
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 14px;
+  background-color: #e6fff2;
+}
+header {
+  background: white;
+}
+
+#app {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  padding: 2%;
+}
+
+#invite {
+  width: 50%;
+  text-align: center;
+  vertical-align: central;
+}
+
+#main {
+  width: 50%;
+  text-align: center;
+}
+
+#backgroundDesign {
+    width: 60%;
+    height: 500px;
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1511689774932-3aca18459e68?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=17128790fb88a4840aba3dd16abeb2f7&auto=format&fit=crop&w=634&q=80");
+}
+
+button {
+    background-color: white;
+    border: black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+form div {
+  display: block;
+  padding: 1%;
+  text-align: right;
+}
